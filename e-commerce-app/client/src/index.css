@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar CSS */
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-brand {
+  font-family: 'roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+/* Footer css */
+
+.footer {
+  background-color: #333;
+  /* Background color for the footer */
+  color: #fff;
+  /* Text color for the footer */
+  padding: 20px 0;
+  /* Padding for the footer */
+}
+
+.footer h4 {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.footer p {
+  text-align: center;
+}
+
+/* Style links in the footer */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  /* Add space between links */
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  /* Underline on hover */
+}
+
+/* Page Not FOund css */
+
+.pnf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.pnf-title {
+  font-size: 100px;
+  margin: 0;
+
+  /* Adjust the color as per your preference */
+}
+
+.pnf-heading {
+  font-size: 30px;
+  margin: 10px 0;
+  color: #333;
+  /* Adjust the color as per your preference */
+}
+
+.pnf-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  /* Adjust the color as per your preference */
+  color: #fff;
+  /* Text color for the button */
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.pnf-btn:hover {
+  background-color: #0056b3;
+  /* Adjust the hover color as per your preference */
+}
+
+/* Contact us CSs */
+
+.contactus {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.contactus img {
+  width: 100%;
+}
+
+.contactus h1 {
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.contactus p {
+  margin-top: 10px;
+}
+
+.contactus p svg {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.contactus p a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.contactus p a:hover {
+  text-decoration: underline;
+}
+
+.contactus {
+  margin-top: 20px;
+}
+
+.contactus img {
+  width: 100%;
+}
+
+.contactus h2 {
+  font-size: 24px;
+  color: black;
+  /* Adjust the color as per your preference */
+  margin-top: 10px;
+}
+
+.contactus span {
+  font-weight: bold;
+  color: #333;
+  /* Adjust the color as per your preference */
+}
+
+.contactus p {
+  text-align: left;
+  margin-top: 10px;
+}
